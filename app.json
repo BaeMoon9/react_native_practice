@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "owner": "launch_all",
+    "name": "속닭속닭",
+    "slug": "SokDak-SokDak",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "privacy": "hidden",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled":false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.launchall.SokDarkSokDark"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.launchall.SokDarkSokDark"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
